@@ -1,5 +1,13 @@
+[![Build Status](https://travis-ci.org/telemark/tfk-unique-array.svg?branch=master)](https://travis-ci.org/telemark/tfk-unique-array)
+[![Coverage Status](https://coveralls.io/repos/telemark/tfk-unique-array/badge.svg?branch=master&service=github)](https://coveralls.io/github/telemark/tfk-unique-array?branch=master)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-unique-array
-Creates array of unique objects
+Creates an array of unique values
+
+## Installation
+```
+$ npm install tfk-unique-array
+```
 
 ## Usage
 
@@ -17,3 +25,6 @@ console.log(makeUnique(liste))
 
 //=>[ 1, 2, 3, 4, 5, 23, { title: 'Ole' }, 'En dag jeg gikk tur' ]
 ```
+
+## License
+[MIT](LICENSE)

@@ -9,11 +9,14 @@ function makeUnique (list) {
     throw new Error('Wrong input type: array is required')
   }
 
+  var filtered = list.map(function (item) {
+    return JSON.stringify(item)
+  })
   var uniqueList = []
-  var set = new Set(list)
+  var set = new Set(filtered)
 
   set.forEach(function (item) {
-    uniqueList.push(item)
+    uniqueList.push(JSON.parse(item))
   })
 
   return uniqueList

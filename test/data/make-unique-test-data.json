@@ -1,0 +1,8 @@
+{
+  "raw": [
+    1, 2, "en", "to", 2, 1, "to", "en", {"title": "jeg er et object"}, {"title": "jeg er et object"}, {"title": "jeg er et object"}, 1, 2
+  ],
+  "expected": [
+    1, 2, "en", "to", {"title": "jeg er et object"}
+  ]
+}
