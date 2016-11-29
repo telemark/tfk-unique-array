@@ -1,6 +1,6 @@
 'use strict'
 
-function makeUnique (list) {
+module.exports = (list) => {
   if (!list) {
     throw new Error('Missing required input: array')
   }
@@ -9,17 +9,11 @@ function makeUnique (list) {
     throw new Error('Wrong input type: array is required')
   }
 
-  var filtered = list.map(function (item) {
-    return JSON.stringify(item)
-  })
+  const filtered = list.map(item => JSON.stringify(item))
+  const set = new Set(filtered)
   var uniqueList = []
-  var set = new Set(filtered)
 
-  set.forEach(function (item) {
-    uniqueList.push(JSON.parse(item))
-  })
+  set.forEach(item => { uniqueList.push(JSON.parse(item)) })
 
   return uniqueList
 }
-
-module.exports = makeUnique

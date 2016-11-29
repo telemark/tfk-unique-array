@@ -1,7 +1,7 @@
 'use strict'
 
 var tap = require('tap')
-var makeUnique = require('../index')
+var makeUnique = require('../../index')
 
 tap.throws(
   function () {
