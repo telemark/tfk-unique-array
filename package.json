@@ -1,6 +1,6 @@
 {
   "name": "tfk-unique-array",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Creates an array of unique elements",
   "license": "MIT",
   "author": {
