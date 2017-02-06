@@ -2,6 +2,8 @@
 [![Coverage Status](https://coveralls.io/repos/telemark/tfk-unique-array/badge.svg?branch=master&service=github)](https://coveralls.io/github/telemark/tfk-unique-array?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-unique-array
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-unique-array.svg)](https://greenkeeper.io/)
 Creates an array of unique values
 
 ## Installation
