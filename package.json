@@ -33,7 +33,7 @@
     "url": "http://github.com/telemark/tfk-unique-array/issues"
   },
   "devDependencies": {
-    "coveralls": "2.11.16",
+    "coveralls": "2.13.0",
     "nsp": "2.6.3",
     "tap": "10.2.2"
     "standard": "9.0.2",
