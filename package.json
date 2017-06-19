@@ -1,6 +1,6 @@
 {
   "name": "tfk-unique-array",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Creates an array of unique elements",
   "license": "MIT",
   "author": {
@@ -35,7 +35,7 @@
   "devDependencies": {
     "coveralls": "2.13.1",
     "nsp": "2.6.3",
-    "tap": "10.4.0",
+    "tap": "10.3.3",
     "standard": "10.0.2"
   }
 }
