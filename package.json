@@ -10,11 +10,11 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=4.6.2"
+    "node": ">=10.15.1"
   },
   "scripts": {
     "start": "node index.js",
-    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "test": "standard && npm audit && tap --reporter=spec test/**/*.js",
     "coverage": "tap test/**/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install && node setup.js",
@@ -27,14 +27,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/tfk-unique-array.git"
+    "url": "git+https://github.com/telemark/tfk-unique-array.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/tfk-unique-array/issues"
+    "url": "https://github.com/telemark/tfk-unique-array/issues"
   },
   "devDependencies": {
     "coveralls": "3.0.2",
-    "nsp": "3.2.1",
     "tap": "12.5.0",
     "standard": "12.0.1"
   }
