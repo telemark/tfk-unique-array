@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/telemark/tfk-unique-array#readme",
   "devDependencies": {
-    "coveralls": "3.0.8",
+    "coveralls": "3.0.9",
     "tap": "14.10.2",
     "standard": "14.3.1"
   }
